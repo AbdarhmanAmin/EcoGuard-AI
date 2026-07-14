@@ -1,25 +1,4 @@
-"""
-EcoGuard AI - Water Intelligence Platform
-==========================================
-تطبيق Streamlit احترافي يجمع 3 أنظمة:
-1. مساعد ذكي (RAG) للإجابة على أسئلة جودة المياه من مستندات PDF.
-2. نموذج توقع تسرب المياه (SVM).
-3. نموذج توقع تلوث المياه (XGBoost).
 
-هيكل المشروع المتوقع (جذر الريبو):
-EcoGuard-AI/
-├── app.py                              <- هذا الملف
-├── requirements.txt
-├── Model 1 _ Water Leakage/
-│   ├── Water_leakage_model.pkl
-│   └── scaler_leakage.pkl
-├── Model 2 _Water Contamination/
-│   ├── water_contamination_model.pkl
-│   └── scaler_contamination.pkl
-└── Model 3 _ RAG/
-    ├── documents/
-    └── vector_db/
-"""
 
 import os
 
